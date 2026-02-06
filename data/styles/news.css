@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'SuperTux-Font-Medium';
-  src: url('/data/fonts/SuperTux-Medium.ttf') format('truetype');
+  src: url('../fonts/SuperTux-Medium.ttf') format('truetype');
 }
 
 html {
