@@ -23,6 +23,7 @@ html {
         background-size: cover;
         background-position: center;
         padding-top: 7rem; 
+        font-color: black; 
 
         .page-title {
           margin-bottom: 3rem;
