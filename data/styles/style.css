@@ -26,7 +26,7 @@ html {
 
         .page-title {
           margin-bottom: 3rem;
-          color: #ffffff;
+          color: #ffffff !important;
           font-size: 3rem;  
           padding-top: 7rem; 
         }
@@ -34,8 +34,8 @@ html {
         .short-intro {
           margin-top: 3rem;
           margin-bottom: 3rem;
-          color: #ffffff; 
-          font-size: 2rem
+          color: #ffffff !important;
+          font-size: 2rem; 
         }
 
         .buttons {
