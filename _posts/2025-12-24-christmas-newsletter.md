@@ -14,7 +14,7 @@ It's been a very eventful, busy, but also incredibly productive year for the dev
 
 Here's a summary of the changes present in SuperTux 0.7. Don't forget to check out the SuperTux Development Summary video at the end of the newsletter for an in-depth showcase of the major features and improvements. 
 
-### Features
+# Features
 - Various enemies, such as the Ghoul received a full rework, alongside a plethora of bug fixes and tweaks,
 - A completely revamped and modernized Level Editor (thanks to swagtoy and Tobbi),
 - Introduction of the **Glinting** mechanic, to accomodate for the removal of the frag level stat,
@@ -23,7 +23,7 @@ Here's a summary of the changes present in SuperTux 0.7. Don't forget to check o
 - Reorganized credits,
 - New objects (e.g. Editor Comment, Big Snowball),
     
-### Music
+# Music
 - Even more tracks were added to the game's soundtrack from various contributors, such as bruhmoent and Servalot.
 
 Thank you for playing SuperTux and we're looking forward to another great year of SuperTux development in 2026!

@@ -8,42 +8,42 @@ Almost every Christmas recently, the SuperTux Team has had an update to release.
 
 So instead of an update, here is a run-down of the progress for the next update:
 
-## Improvements made in 2022
+# Improvements made in 2022
 Most of the major improvements made to SuperTux in 2022 include:
 
-* World select
-* Local Multiplayer
-* Complete revamp of tile graphics
-* Sliding
-* Crawling
-* New iceflower behavior
-* Heavy Crate
-* Root Crusher
-* More fish enemies
-* Revamp of addon menu
-* Check for updates
-* New sprites for some enemies
+- World select
+- Local Multiplayer
+- Complete revamp of tile graphics
+- Sliding
+- Crawling
+- New iceflower behavior
+- Heavy Crate
+- Root Crusher
+- More fish enemies
+- Revamp of addon menu
+- Check for updates
+- New sprites for some enemies
 
-## Works in progress
+# Works in progress
 A lot of improvements are still WIP, such as:
 
-* Finding a way to not break old levels with new graphics
-* Improvements to earth flower behavior
-* New backgrounds
-* Keys and locked doors
-* More menu improvements
-* New sprites for Tux and Penny
-* More new sprites for more enemies
-* Updates to every level in the base game
+- Finding a way to not break old levels with new graphics
+- Improvements to earth flower behavior
+- New backgrounds
+- Keys and locked doors
+- More menu improvements
+- New sprites for Tux and Penny
+- More new sprites for more enemies
+- Updates to every level in the base game
 
-## More improvements to be made
+# More improvements to be made
 And some new improvements have yet to be started, such as:
 
-* Improvements to boss behavior
-* Addition of minibosses
-* Inclusion of shops
-* More graphics
-* Other smaller features
+- Improvements to boss behavior
+- Addition of minibosses
+- Inclusion of shops
+- More graphics
+- Other smaller features
 
 
 So in short, there is still a lot of progress to be made, alongside the progress that’s already been made.  0.7.0 is going to be a relatively large update for SuperTux, and hopefully you all enjoy it when it is done.

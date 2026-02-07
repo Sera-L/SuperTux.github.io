@@ -1,38 +1,69 @@
 ---
-layout: default
-title: Home
+layout: home
+title: "Home"
 ---
 
-<link href="lightbox/lightbox.css" rel="stylesheet" />
-<script src="lightbox/lightbox-plus-jquery.js"></script>
-<aside class="screenshots">
-  {% include donate.html %}
+<div class="hero">
+  <h1 class="page-title">
+    SuperTux
+  </h1>
+  <p class="short-intro">
+    SuperTux is an open-source classic 2D jump'n'run sidescroller game in a style similar to the original Super Mario games.
   <br>
-  <small><em>Be aware of transaction fees. Review the <a href="{{ site.baseurl }}/donate.html">donation</a> page for information.</em></small>
-  <h3>Screenshots</h3>
-  {% for screenshot in site.data.screenshots["v0.6.0"] %}
-    {% if screenshot.sample %}
-      <a href="{{ site.baseurl }}/{{ screenshot.large }}" data-lightbox="screenshot_sample"><img class="screenshot screenshot_home" alt="{{ site.baseurl }}/{{ screenshot.large }}" src="{{ site.baseurl }}/{{ screenshot.small }}" width="200" height="150"/></a>
-    {% endif %}
-  {% endfor %}
-  <a href="screenshots.html">More Screenshots</a>
-</aside>
-<article id="pagebody">
-  <h2>Welcome</h2>
-  <p>
-    SuperTux is an open-source classic 2D jump'n run sidescroller game in a style
-    similar to the original Super Mario games.
-    <a href="{{ site.baseurl }}/discover.html">Learn more…</a>
+    Run and jump through multiple worlds, fighting off enemies by jumping on them, bumping them from below or tossing objects at them, grabbing power-ups and other stuff on the way.
   </p>
-
-  <hr/>
-  <section class="news">
-    <div class="datestamp">
-      <p>{{ site.posts.first.date | date: "%b %-d, %Y" }}</p>
+  <div class="buttons">
+    <button class="download-button" onclick="document.location='download/download.html'">
+      <i class="fa-solid fa-download"></i>
+      Download
+    </button>
+    <button class="wiki-button" onclick="document.location='https://github.com/SuperTux/supertux/wiki'">
+      <i class="fa-solid fa-book"></i>
+      Wiki
+    </button>
+    <button class="play-online-button" onclick="document.location='https:play.supertux.org'">
+      <i class="fa-solid fa-gamepad"></i>
+      Play Online
+    </button>
+  </div>
+</div>
+<div class="video">
+  <h1>Development Summary</h1>
+  <div class="video-box">
+    <iframe src="https://www.youtube.com/embed/PczyNWV8gI0?start=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+  </div>
+</div>
+<div class="gallery">
+  <h1>Gallery</h1>
+  <div class="photos">
+    <div class="photo">
+      <a href="data/images/gallery/1.png"><img src="data/images/gallery/1.png"></a>
     </div>
-    <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ site.posts.first.title }}</a></h2>
-    {{ site.posts.first.content }}
-  </section>
-  <hr/>
-  <p>Read more news posts <a href="{{ site.baseurl }}/news/">in the news section</a>.</p>
-</article>
+    <div class="photo">
+      <a href="data/images/gallery/17.png"><img src="data/images/gallery/17.png"></a>
+    </div>
+    <div class="photo">
+      <a href="data/images/gallery/28.png"><img src="data/images/gallery/28.png"></a>
+    </div>
+    <div class="photo">
+      <a href="data/images/gallery/35.png"><img src="data/images/gallery/35.png"></a>
+    </div>
+  </div>
+</div>
+<div class="news">
+  <h1>Latest News</h1>
+  <div class="news-card">
+    <img src="data/images/thumbnails/1.webp">
+    <div class="quote">
+      <h3>
+        SuperTux 0.7.0 BETA 1
+      </h3>
+      <p>
+        The SuperTux Team is ecstatic to announce the first beta release of v0.7.0. This is perhaps one of the largest facelifts to the base game since the introduction of Milestone 2!
+          <br>
+        <a href="2025/12/29/0.7.0_beta1.html">Read more</a>
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+---
+layout: news
+title: "News"
+---
+
+<div class="news">
+  <h1>News</h1>
+  <div class="content">
+    {% for post in site.posts %}
+    <div class="news-card">
+      <img src="{{ post.thumbnail }}">
+      <div class="quote">
+        <h3>
+          {{ post.title }}
+        </h3>
+        <p>
+          {{ post.excerpt }}
+          <a href="{{ post.url }}">Read more</a>
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+

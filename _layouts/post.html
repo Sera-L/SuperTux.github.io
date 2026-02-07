@@ -1,13 +1,33 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ '/data/styles/post.css' | relative_url }}">
+    <link rel="icon" type="image/x-icon" href="{{ '/data/icons/favicon.ico' | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SuperTux | {{ page.title }}</title>
+  </head>
+  <body>
+    <header>
+      {% include header.html %} 
+    </header>
+    <main>
+      <div class="post">
+        <h1>{{ page.title }}</h1>
+        <div class="content">
+          {{ content }} 
+        </div>
+<hr>
+        <p>Edited on 
+          {{ page.date | date: "%Y-%m-%d" }}
+        </p>
+      </div>
+    </main>
+    <footer>
+        {% include footer.html %} 
+    </footer>
+  </body>
+</html>
 
-<article id="pagebody">
-  <section class="news">
-    <div class="datestamp">
-      <p>{{ page.date | date: "%b %-d, %Y" }}</p>
-    </div>
-    <h2><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
-    {{ content }}
-  </section>
-</article>
+

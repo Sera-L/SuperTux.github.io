@@ -1,25 +1,35 @@
-<div id="title">
-  <h1>
-    <a href="{{ site.baseurl }}/index.html">
-      <img src="{{ site.baseurl }}/images/supertux_title.png" alt="SuperTux"/>
-    </a>
-  </h1>
-  <nav>
-    <ul class="menu">
-      <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-      <li><a href="{{ site.baseurl }}/download.html">Download</a></li>
-      <li><a href="{{ site.baseurl }}/news/">News</a></li>
-	  <li><a href="{{ site.baseurl }}/discover.html">About</a></li>
-      <li><a href="{{ site.baseurl }}/screenshots.html">Screenshots</a></li>
-      <li><a href="{{ site.baseurl }}/donate.html">Donate</a></li>
-      <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+<head>
+  <link rel="stylesheet" href="{{ 'data/styles/header.css' | relative_url }}">
+</head>
+<nav>
+  <div class="logo">
+    <img src="{{ 'data/icons/supertux-logo.png' | relative_url }}">
+    <h3>
+      <a href="{{ 'index.html' | relative_url }}">
+        SuperTux
+      </a>
+    </h3>
+  </div>
+  <div class="sections">
+    <ul>
+      <li>
+        <a href="{{ 'gallery.html' | relative_url }}">Gallery</a>
+      </li>
+      <li>
+        <a href="{{ 'news.html' | relative_url }}">News</a>
+      </li>
+      <li>
+        <a href="{{ 'download.html' | relative_url }}">Download</a>
+      </li>
+      <li>
+        <a href="{{ 'community.html' | relative_url }}">Community</a>
+      </li>
+      <li>
+        <a href="{{ 'about.html' | relative_url }}">About</a>
+      </li>
+      <li>
+        <a href="{{ 'contact.html' | relative_url }}">Contact</a>
+      </li>
     </ul>
-    <ul class="menu external">
-      <li><a href="ircs://irc.libera.chat/#supertux">IRC</a></li>
-      <li><a href="https://github.com/SuperTux/supertux/wiki">Wiki</a></li>
-      <li><a href="https://github.com/SuperTux/supertux/issues">Bugs</a></li>
-      <li><a href="https://groups.f-hub.org/g/8AKEaTgZ">Forum</a></li>
-      <li><a href="https://discord.gg/AcvtHWz">Discord</a></li>
-    </ul>
-  </nav>
-</div>
+  </div>
+</nav>

@@ -1,19 +1,8 @@
+url: "https://sera-l.github.io/SuperTux.github.io/"
 name: SuperTux
 markdown: kramdown
 highlighter: rouge
-# baseurl: https://supertuxproject.org
 exclude:
   - README.md
 output: true
 description: SuperTux is an open-source classic 2D jump'n run sidescroller game in a style similar to the original Super Mario games.
-
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-
-permalink: /news/:year/:month/:day/:title
-timezone: UTC
-
-paginate: 3
-paginate_path: /news/:num
