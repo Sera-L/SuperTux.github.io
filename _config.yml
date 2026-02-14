@@ -1,4 +1,5 @@
 url: "https://sera-l.github.io/SuperTux.github.io/"
+baseurl: "/SuperTux.github.io"
 name: SuperTux
 markdown: kramdown
 highlighter: rouge
