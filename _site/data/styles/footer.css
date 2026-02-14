@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'SuperTux-Font-Medium';
+    src: url('../fonts/SuperTux-Medium.ttf') format('truetype');
+}
+
+html {
+  font-size: 12px;
+  font-family: 'SuperTux-Font-Medium', serif;
+
+  body {
+    margin: 0px;
+
+    footer{
+      padding: 25px; 
+      text-align: center;
+      background-color: #2E2E2E; 
+      color: white; 
+
+      .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        font-size: 30px;  
+
+        a {
+          color: white;
+        }
+      }
+
+      .copyrights {
+    
+        a {
+          color: #0080FF;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
