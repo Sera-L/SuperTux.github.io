@@ -19,7 +19,6 @@ html {
     main {
 
       .hero{
-        background-image: url('../images/covers/home.png');
         margin-bottom: 6rem;
         text-align: center; 
         width: 100%;
