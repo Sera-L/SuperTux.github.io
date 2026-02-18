@@ -6,7 +6,10 @@
 html {
   font-size: 12px;
   font-family: 'SuperTux-Font-Medium', serif;
-  margin: 20%;
+  margin-top: 0px;
+  margin-right: 20%;
+  margin-bottom: 0px;
+  margin-left: 20%;
 
   body {
     margin: 0px;
