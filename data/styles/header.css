@@ -10,7 +10,11 @@ html {
   body {
     margin: 0px;
 
-      header {
+    header {
+      display: flex;
+      flex-direction: collumn;
+      flex-wrap: wrap;
+
       nav {
         display: flex;
         flex-direction: row;
@@ -18,11 +22,10 @@ html {
         justify-content: space-between;
         border-style: none none solid none;
         border-width: 0px 0px 1px 0px;
-        border-color; black;
-        padding: 1%; 
+        border-color; black; 
         width: 100%;
         background-color: white; 
-        margin: 0px;      
+        margin: auto;      
 
         .logo {
           display: flex;
@@ -55,6 +58,7 @@ html {
           flex-direction: row;
           justify-content: space-between;
           flex-wrap: wrap;
+          margin: 10px
   
           ul {
             display: flex;
@@ -66,9 +70,7 @@ html {
             li {
               display: flex;
               padding: 0.5rem; 
-              font-size: 1.20rem;
-              margin-right: 10px; 
-              margin-left: 10px; 
+              font-size: 1.20rem; 
             }
 
             li:hover,
