@@ -13,13 +13,13 @@ html {
   body {
     display: grid;
     grid-template-rows: auto 1fr;
-    bachground-color: white;
 
     main {
       margin-top: 0px;
       margin-right: 10%;
       margin-bottom: 0px;
       margin-left: 10%;
+      bachground-color: white;
 
       .hero{
         text-align: center; 
