@@ -6,6 +6,7 @@
 html {
   font-size: 12px;
   font-family: 'SuperTux-Font-Medium', serif;
+  margin: 20%;
 
   body {
     margin: 0px;
@@ -57,7 +58,7 @@ html {
           }
 
           .download-button:hover,
-                                       :active {
+                          :active {
             background-color: #0080F0; 
           }
 
@@ -73,7 +74,7 @@ html {
           }
 
           .wiki-button:hover,
-                              :active {
+                      :active {
             background-color: #01DF70; 
           }
 
@@ -89,7 +90,7 @@ html {
           }
 
           .play-online-button:hover,
-                                         :active {
+                             :active {
             background-color: #8000F0; 
           }
         }
