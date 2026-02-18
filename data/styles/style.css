@@ -6,13 +6,13 @@
 html {
   font-size: 12px;
   font-family: 'SuperTux-Font-Medium', serif;
-  background-image: url('../images/backgrounds/cave.png');
-  background-size: cover;
-  background-position: center;
 
   body {
     display: grid;
     grid-template-rows: auto 1fr;
+    background-image: url('../images/backgrounds/cave.png');
+    background-size: cover;
+    background-position: center;
 
     main {
       margin-top: 0px;
