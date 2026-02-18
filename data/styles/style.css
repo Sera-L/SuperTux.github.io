@@ -15,11 +15,9 @@ html {
     background-position: center;
 
     main {
-      margin-top: 0px;
-      margin-right: 10%;
-      margin-bottom: 0px;
-      margin-left: 10%;
-      bachground-color: white;
+      margin-right: 5%;
+      margin-left: 5%;
+      bachground-color: #ffffff;
 
       .hero{
         text-align: center; 
