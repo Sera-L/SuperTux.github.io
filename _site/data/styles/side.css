@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'SuperTux-Font-Medium';
+    src: url('../fonts/SuperTux-Medium.ttf') format('truetype');
+}
+
+html {
+    font-size: 12px;
+    font-family: 'SuperTux-Font-Medium', serif;
+
+    body {
+        margin: 0px;
