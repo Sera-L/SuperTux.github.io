@@ -16,35 +16,31 @@ html {
       background-color: #ffffff;
       margin-right: 5%;
       margin-left: 5%;
+      margin-bottom: 0px;
+      padding-bottom: 3rem;
+      margin-top: 0px;
+      padding-top: 6rem;%
 
       .policy {
-        text-align: center;
-        margin-bottom: 3rem;  
 
         h1 {
-          margin-top: 0px;
           margin-bottom: 6rem; 
-          padding-top: 12rem; 
           font-size: 3rem; 
+          text-align: center;
         }
 
         .content {
+          text-align: left;
+          margin-right: 1rem;
+          margin-left: 1rem;
 
           h1 {
-            text-align: left;
             font-size: 2rem;
-            padding-top: 0px;
             margin-bottom: 3rem; 
-            margin-right: 1rem;
-            margin-left: 1rem; 
           }
 
           p {
-            text-align: left;
             font-size: 1.25rem;
-            margin-bottom: 3rem; 
-            margin-right: 1rem;
-            margin-left: 1rem;
 
             a {
               color: #0080FF;

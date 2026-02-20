@@ -16,6 +16,10 @@ html {
       background-color: #ffffff;
       margin-right: 5%;
       margin-left: 5%;
+      margin-bottom: 0px;
+      padding-bottom: 3rem;
+      margin-top: 0px;
+      padding-top: 6rem;
 
       .hero{
         text-align: center; 
