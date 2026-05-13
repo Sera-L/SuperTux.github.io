@@ -15,7 +15,7 @@ title: "News"
         </h3>
         <p>
           {{ post.excerpt }}
-          <a href="{{ post.url }}">Read more</a>
+          <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
         </p>
       </div>
     </div>
