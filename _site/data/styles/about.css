@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'SuperTux-Font-Medium';
+    src: url('../fonts/SuperTux-Medium.ttf') format('truetype');
+}
+
+html {
+  font-size: 12px;
+  font-family: 'SuperTux-Font-Medium', serif;
+
+  body {
+    background-image: url('../images/backgrounds/cave.png');
+    background-size: cover;
+    background-position: center;
+
+    main {
+      background-color: #ffffff;
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-bottom: 0px;
+      padding-bottom: 3rem;
+      margin-top: 0px;
+      padding-top: 6rem;
+
+      .about {
+        text-align: center;
+
+        h1 {
+          margin-bottom: 6rem;
+          font-size: 3rem; 
+        }
+
+        .content {
+          margin-right: 1rem;
+          margin-left: 1rem;
+          text-align: left;
+
+          h1 {
+            font-size: 2rem;
+            margin-bottom: 3rem; 
+          }
+
+          p {
+            font-size: 1.25rem;
+            margin-bottom: 3rem; 
+          }
+    
+          img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 3rem; 
+            height: auto;
+            width: auto;
+            box-shadow: 4px 4px 5px #cacaca;
+            border-style: none;
+            border-radius: 20px;
+         } 
+       }
+     }
+   }
+ }
