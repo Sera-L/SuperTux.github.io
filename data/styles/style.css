@@ -26,10 +26,25 @@ html {
 
         .page-title {
           font-size: 3rem;
+          padding-bottom: 4rem;
         }
-    
+
         .short-intro {
-          font-size: 2rem; 
+          font-size: 2rem;
+          padding-bottom: 4rem;
+        }
+
+        .trailer {
+          h1 {
+            font-size: 3rem;
+            padding-bottom: 4rem;
+          }
+
+          iframe {
+            border-style: none;
+            border-radius: 20px;
+            padding-bottom: 4rem;
+          }
         }
       } 
       
@@ -42,6 +57,7 @@ html {
           text-align: center;         
           font-size: 3rem;
           align-items: center;
+          padding-bottom: 4rem;
         }
   
         .news-card {
