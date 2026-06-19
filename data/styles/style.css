@@ -35,6 +35,8 @@ html {
         }
 
         .trailer {
+          padding-bottom: 4rem;
+
           h1 {
             font-size: 3rem;
             padding-bottom: 4rem;
@@ -43,7 +45,7 @@ html {
           iframe {
             border-style: none;
             border-radius: 20px;
-            padding-bottom: 4rem;
+
           }
         }
       } 
